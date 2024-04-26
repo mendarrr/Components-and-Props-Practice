@@ -3,7 +3,7 @@ import "./TransactionItem.css"
 
 function TransactionItem({ props }) {
   return (
-    <div>
+    <div id="table">
       <table class="table">
         <thead>
           <tr>
@@ -15,7 +15,7 @@ function TransactionItem({ props }) {
         </thead>
         <tbody>
           {props.map(
-            ({ id, date, description, category, amount, quantity }) => (
+            ({ id, date, description, category, amount}) => (
               <tr key={id}>
                 <td>{date}</td>
                 <td>{description}</td>
