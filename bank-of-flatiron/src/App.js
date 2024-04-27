@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Transaction from './components/Transaction';
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <SearchBar/>
-      <Form/>
+      <Form />
       <Transaction/>
      
 

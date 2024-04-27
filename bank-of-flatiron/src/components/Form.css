@@ -12,12 +12,13 @@
 
 }
 
-.input-box{
+#input-box{
     display: flex;
     flex-direction: wrap;
     justify-content: space-between;
     width: 100%;
     line-height: 5vh;
+    margin-right: 5px;
 }
 
 .input{
@@ -32,6 +33,7 @@ input::placeholder{
     font-weight: 400px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    align-items: center;
 }
 
 .btn{
@@ -47,7 +49,7 @@ input::placeholder{
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     color: black;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .btn:hover{

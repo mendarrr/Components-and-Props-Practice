@@ -34,5 +34,12 @@ export const bankTransactions = [
         description: "Chipotle",
         category: "Food",
         amount: 2600,
+    },
+    {
+        id: 6,
+        date: "28/04/2024",
+        description: "Payment to John",
+        category: "Wages",
+        amount: 500,
     }
 ]

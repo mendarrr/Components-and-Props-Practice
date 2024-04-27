@@ -24,7 +24,6 @@ function TransactionItem({ props }) {
               </tr>
             )
           )}
-          ;
         </tbody>
       </table>
     </div>
